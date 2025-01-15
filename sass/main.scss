@@ -1,0 +1,23 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+ @import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+// @import   "./components/navCustom";
+
+@import './base/base';
+
+@import './base//animation';
+@import './base//typography';
+@import './base//utilities';
+
+@import './abstract//functions';
+@import './abstract//mixins';
+@import './abstract//variables';
+
+@import './pages/home';
+
